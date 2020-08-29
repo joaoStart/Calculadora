@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #08f760, #111cff );
+}
+#calculadora {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.output #visor {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.2rem;
+    text-align: right;
+    border: 1px solid #ffffff;
+}
+main {
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.btnCalc {
+    width: 33.3%;
+    height: 3rem;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+.two-space {
+    flex-grow: 1;
+}

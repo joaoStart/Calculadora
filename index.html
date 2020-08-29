@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora class</title>
+    
+</head>
+<body>
+    <div id="calculadora">
+        <div class="output">
+            <input type="text" id="visor">
+        </div>
+        <main>
+            <button class="btnCalc two-space" onclick="clearAll()">DEL</button>
+            <button class="btnCalc" onclick="onclickOperador('/')">/</button>
+            <button class="btnCalc" onclick="onclickOperador('*')">*</button>
+            <button class="btnCalc" onclick="onclickNumber('1')">1</button>
+            <button class="btnCalc" onclick="onclickNumber('2')">2</button>
+            <button class="btnCalc" onclick="onclickNumber('3')">3</button>
+            <button class="btnCalc" onclick="onclickNumber('4')">4</button>
+            <button class="btnCalc" onclick="onclickNumber('5')">5</button>
+            <button class="btnCalc" onclick="onclickNumber('6')">6</button>
+            <button class="btnCalc" onclick="onclickNumber('7')">7</button>
+            <button class="btnCalc" onclick="onclickNumber('8')">8</button>
+            <button class="btnCalc" onclick="onclickNumber('9')">9</button>
+            <button class="btnCalc" onclick="onclickOperador('-')">-</button>
+            <button class="btnCalc" onclick="onclickNumber('0')">0</button>
+            <button class="btnCalc" onclick="onclickOperador('+')">+</button>
+            <button class="btnCalc" onclick="onclickOperador('.')">.</button>
+            <button class="btnCalc two-space" onclick="onClickButtonOp()">=</button>
+        </main>
+    </div>
+    
+        
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
