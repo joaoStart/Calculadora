@@ -34,12 +34,15 @@ main {
     flex-wrap: wrap;
 }
 .btnCalc {
-    width: 33.3%;
-    height: 3rem;
+    width: 25%;
+    height: 3.4rem;
     border: 1px solid #ffffff;
     cursor: pointer;
     outline: none;
 }
 .two-space {
-    flex-grow: 1;
+    width: 50%;
+}
+.btnOper {
+    background-color: rgb(226, 221, 221);
 }
